@@ -1,0 +1,249 @@
+/*---------------------HEADER---------------------*/
+
+.header {
+	position: fixed;
+    left: 0px;
+    margin-left: 0px;
+    width: 100%;
+    min-width: 980px;
+    z-index: 50;
+    top: 0px;
+    height: 166px;
+
+    position: fixed !important;
+    left: auto !important;
+    z-index: 50;
+}
+
+.header1 {
+	left: 0px;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.header1-div {
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(31, 31, 31, 1);
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+
+.header2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.header3 {
+	margin-left: calc((100% - 980px) / 2);
+    width: 980px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.header-logo {
+	left: 404px;
+	width: 176px;
+	position: absolute;
+	pointer-events: none;
+	top: 38px;
+
+    margin-left: calc((100% - 980px) * 0.5);
+}
+
+.header-logo-h1 {
+	padding-top: 35px;
+	font-size: 26px;
+	line-height: 1.41em;
+	text-align: center;
+	font-weight: bold;
+
+	margin: 0;
+    line-height: normal;
+    letter-spacing: normal;
+
+    pointer-events: auto;
+
+    font: normal normal normal 26px/1.41em roboto,sans-serif;
+    color: #ffffff;
+}
+
+
+.header-line {
+	transform-origin: center 0.5px;
+	left: 20px;
+	width: 940px;
+	position: absolute;
+	top: 94px;
+	height: 5px;
+
+	margin-left: calc((100% - 980px) * 0.5);
+
+	box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 0.85);
+    height: 0;
+}
+
+.header-menu {
+	left: 20px;
+	width: 940px;
+	position: absolute;
+	visibility: inherit;
+	top: 106px;
+	height: 30px;
+	overflow-x: visible;
+
+	margin-left: calc((100% - 980px) * 0.5);
+}
+
+.header-menu nav {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+.header-menu .header-menu-items {
+	text-align: center;
+
+	width: calc(100% - 0px);
+    height: calc(100% - 0px);
+    white-space: nowrap;
+
+    left: -10px;
+
+    margin: 0px;
+    padding-left: 0px;
+
+    display: inline-block;
+    overflow: visible;
+    position: absolute;
+}
+
+.header-menu nav ul li {
+	display: inline-block;
+    cursor: pointer;
+    font: normal normal normal 14px/1.79em helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+}
+
+.header-menu .about-me {
+	width: 115px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+.header-menu .blog {
+	width: 83px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+.header-menu .skills {
+	width: 87px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+.header-menu .java-skills {
+	width: 124px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+.header-menu .basic-knowledge {
+	width: 162px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+.header-menu .projects {
+	width: 106px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+.header-menu .work {
+	width: 87px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+.header-menu .cv {
+	width: 74px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+.header-menu .contact {
+	width: 102px;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+	overflow: visible;
+}
+
+
+.header-menu nav ul li a {
+	display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.header-menu a:hover p {
+	font-size: 15px;
+	color: #ffffff;
+	margin-top: -1px;
+}
+
+.header-menu .button-gapper {
+	padding: 0px 5px;
+
+	text-align: center;
+}
+
+.header-menu .button-gapper p {
+    line-height: 30px;
+    color: #d2d2d2;
+}
+
+/*---------------------HEADER---------------------*/
