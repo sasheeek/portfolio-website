@@ -28,7 +28,7 @@ div {
 }
 
 
-h1::selection, span::selection, img::selection, p::selection {
+h1::selection, span::selection, img::selection, p::selection, h4::selection, a::selection {
 	background-color: #626262;
 }
 
@@ -42,17 +42,16 @@ h1::selection, span::selection, img::selection, p::selection {
     min-width: 980px;
     position: absolute;
     top: 166px;
-    height: 1008px;
+    height: 1014px;
 }
 
 .main-container-1 {
 	left: 0px;
-    width: 980px;
+    width: 982px;
     position: absolute;
     top: 0px;
-    height: 1008px;
-
-        margin-left: calc((100% - 980px) * 0.5);
+    height: 1014px;
+    margin-left: calc((100% - 980px) * 0.5);
 }
 
 .main-container-2 {
@@ -70,6 +69,8 @@ h1::selection, span::selection, img::selection, p::selection {
     width: 490px;
     position: relative;
     height: 252px;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 
 .main-img-div-1 {
@@ -105,6 +106,8 @@ h1::selection, span::selection, img::selection, p::selection {
     width: 490px;
     position: relative;
     height: 252px;
+    margin-left: 1px;
+    margin-bottom: 1px;
 }
 
 .main-img-div-2 {
@@ -143,6 +146,9 @@ h1::selection, span::selection, img::selection, p::selection {
     width: 490px;
     position: relative;
     height: 252px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 .main-img-div-3 {
@@ -181,6 +187,9 @@ h1::selection, span::selection, img::selection, p::selection {
     width: 490px;
     position: relative;
     height: 252px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 .main-img-div-4 {
@@ -209,7 +218,6 @@ h1::selection, span::selection, img::selection, p::selection {
 
     transition: all 0.2s ease-in-out 0s;
 }
-
 /*----4----*/
 
 /*----5----*/
@@ -219,6 +227,9 @@ h1::selection, span::selection, img::selection, p::selection {
     width: 490px;
     position: relative;
     height: 252px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 .main-img-div-5 {
@@ -256,8 +267,10 @@ h1::selection, span::selection, img::selection, p::selection {
     left: auto;
     width: 490px;
     position: relative;
-    height: 252px;
-}
+    height: 252px
+    margin-left: 1px;
+    margin-bottom: 1px;
+    margin-top: 1px;}
 
 .main-img-div-6 {
 	position: absolute;
@@ -267,14 +280,14 @@ h1::selection, span::selection, img::selection, p::selection {
     top: 0px;
     left: 0px;
     transform: scale(1);
-
-    transition: all 0.2s ease-in-out 0s;
 }
 
 .main-img-div-6 img {
 	width: 490px;
     height: 252px;
     object-fit: cover;
+
+    transition: all 0.2s ease-in-out 0s;
 }
 
 .main-div-6:hover img {
@@ -295,6 +308,8 @@ h1::selection, span::selection, img::selection, p::selection {
     width: 490px;
     position: relative;
     height: 252px;
+    margin-right: 1px;
+    margin-top: 1px;
 }
 
 .main-img-div-7 {
@@ -333,6 +348,8 @@ h1::selection, span::selection, img::selection, p::selection {
     width: 490px;
     position: relative;
     height: 252px;
+    margin-left: 1px;
+    margin-top: 1px;
 }
 
 .main-img-div-8 {
@@ -363,37 +380,5 @@ h1::selection, span::selection, img::selection, p::selection {
 }
 
 /*----8----*/
-
-.main-h-div {
-	left: 27px;
-    width: 268px;
-    position: absolute;
-    min-height: 75px;
-    pointer-events: none;
-    visibility: inherit;
-    top: 162px;
-
-    word-wrap: break-word;
-    text-align: start;
-}
-
-.main-h-div h4 {
-	font-size: 35px;
-    line-height: 1em;
-
-    margin: 0;
-    line-height: normal;
-    letter-spacing: normal;
-
-    pointer-events: auto;
-
-    font-family: roboto-bold,roboto,sans-serif;
-
-    font-size: 35px;
-
-	color: #FFFFFF;
-
-	font-weight: bold;
-}
 
 /*---------------------MAIN---------------------*/

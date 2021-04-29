@@ -1,4 +1,3 @@
-
 body {
 	background-color: #181818;
     font-size: 10px;
@@ -29,7 +28,7 @@ div {
 }
 
 
-h1::selection, span::selection, img::selection, p::selection {
+h1::selection, span::selection, img::selection, p::selection, h4::selection, a::selection {
 	background-color: #626262;
 }
 
