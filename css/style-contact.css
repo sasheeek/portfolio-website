@@ -51,15 +51,6 @@ h1::selection, span::selection, img::selection, p::selection, h4::selection, a::
     height: 500px;
 }
 
-.temp6 {
-    left: 180.5px;
-    width: 195px;
-    position: absolute;
-    top: 179.7px;
-    height: 40px;
-    margin-left: calc((100% - 980px) * 0.5);
-}
-
 .temp-p {
     font-size: 14px;
     color: #000000;
@@ -71,24 +62,160 @@ h1::selection, span::selection, img::selection, p::selection, h4::selection, a::
     border: 1px solid black;
 }
 
-.temp7 {
-    left: 145.5px;
-    width: 266px;
-    position: absolute;
-    pointer-events: none;
-    top: 133.7px;
-    margin-left: calc((100% - 980px) * 0.5);
-    word-wrap: break-word;
-    text-align: start;
-}
+.p-text {
+    width: 220px;
 
-.temp7 p {
     letter-spacing: 0.03em;
     font-size: 20px;
     font-family: museo-w01-700,serif;
     color: #ffffff;
     text-align: center;
     line-height: 1.3em;
+
+    background-color: #0E9E62;
+    padding: 75px 20px;
+}
+
+.temp6 {
+    left: 180.5px;
+    width: 195px;
+    position: absolute;
+    top: 180px;
+    height: 40px;
+    margin-left: calc((100% - 980px) * 0.5);
+}
+
+.temp7 {
+    left: 145.5px;
+    width: 266px;
+    position: absolute;
+    pointer-events: none;
+    top: 60px;
+    margin-left: calc((100% - 980px) * 0.5);
+    word-wrap: break-word;
+    text-align: start;
+}
+
+.ti1 {
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    left: 500px;
+    position: absolute;
+    top: 25px;
+}
+
+.ti1 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.temp8 {
+    left: 570px;
+    width: 195px;
+    position: absolute;
+    top: 60px;
+    height: 40px;
+    margin-left: calc((100% - 980px) * 0.5);
+}
+
+.temp9 {
+    left: 605px;
+    width: 195px;
+    position: absolute;
+    top: 180px;
+    height: 40px;
+    margin-left: calc((100% - 980px) * 0.5);
+}
+
+.ti2 {
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    left: 930px;
+    position: absolute;
+    top: 25px;
+}
+
+.ti2 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.temp10 {
+    left: 146px;
+    width: 266px;
+    position: absolute;
+    pointer-events: none;
+    top: 320px;
+    margin-left: calc((100% - 980px) * 0.5);
+    word-wrap: break-word;
+    text-align: start;
+}
+
+.temp11 {
+    left: 180px;
+    width: 195px;
+    position: absolute;
+    top: 440px;
+    height: 40px;
+    margin-left: calc((100% - 980px) * 0.5);
+}
+
+.ti3 {
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    left: 500px;
+    position: absolute;
+    top: 275px;
+}
+
+.ti3 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.temp12 {
+    left: 570px;
+    width: 195px;
+    position: absolute;
+    top: 320px;
+    height: 40px;
+    margin-left: calc((100% - 980px) * 0.5);
+}
+
+.temp13 {
+    left: 605px;
+    width: 195px;
+    position: absolute;
+    top: 440px;
+    height: 40px;
+    margin-left: calc((100% - 980px) * 0.5);
+}
+
+.ti4 {
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    left: 930px;
+    position: absolute;
+    top: 275px;
+}
+
+.ti4 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 
